@@ -92,5 +92,55 @@ RDP
 
 Remote Desktop Protocol
 
+RDP is a Microsoft proprietary protocol that allows remote control of a remote computer using a GUI. It is as if you were sitting in front of a remote computer from your own device. It runs a client-server remote connection where one computer where we will be connecting from will run RDP client and the device we want to connect has to configured as an RDP server to recieve incoming connections. This example will be done over a LAN.
 
+1.  Log in your Windows machine > Search System > Scroll down until you see "Remote Desktop", Click on it > Turn on remote desktop.
+ <br/>
+<img width="1025" height="749" alt="image" src="https://github.com/user-attachments/assets/4279204e-37b7-4f21-a0a4-8650f6d54fd8" />
+<br />
+<br />
+
+2. Open command prompt and type "ipconfig" to get IP adress of Windows machine. We will use IP to connect.
+ <br/>
+<img width="975" height="626" alt="image" src="https://github.com/user-attachments/assets/4f9c1bb3-7757-42a2-9b7f-bc1471c72d68" />
+<br />
+<br />
+
+3. Login to your Ubunutu machine. We need to download an RDP client called Remnina that will allow the Ubuntu machine to connect to the Windows machine via RDP. Open Terminal and type command shown below.
+ <br/>
+<img width="814" height="581" alt="image" src="https://github.com/user-attachments/assets/23b236c5-b239-4c2a-b068-36d215a273e8" />
+<br />
+<br />
+
+4. Launch remnina client by searching in your applications.
+ <br/>
+<img width="1298" height="710" alt="image" src="https://github.com/user-attachments/assets/a4c6b2f0-1065-408e-b63e-465bb3f6935a" />
+<br />
+<br />
+
+5. Select "RDP" and type the IP address of your Windows machine at the top of the page. You will be prompted to type in your username and password.
+ <br/>
+<img width="1298" height="711" alt="image" src="https://github.com/user-attachments/assets/51408787-5041-47d1-ac94-b8d0e9da8cf3" />
+<br />
+<br />
+
+6. Once finished, you can see that you are logged into the Windows machine from your Ubunutu machine via RDP. You are able to fully control the Windows machine from the other machine. IF a user is logged into the Windows machine they will be kicked out once you connect through RDP. Make sure to close connection once you are finished.
+ <br/>
+<img width="1298" height="711" alt="image" src="https://github.com/user-attachments/assets/4ad05cd8-698c-4848-8e60-b1d3dd6c1f23" />
+<br />
+<br />
+
+7. If you are on a windows machine and you want to connect to another windows machine you press the Windows key + r to open run command > Type "mstsc" to launch RDP.
+ <br/>
+<img width="1022" height="771" alt="image" src="https://github.com/user-attachments/assets/921aacb0-ad37-4888-b943-445689ac0d44" />
+<br />
+<br />
+
+8. Type the IP address of the machine you want to connect to. Type in credentials for the account. Once verfied, you will be connected to the remote machine through RDP.
+ <br/>
+<img width="407" height="247" alt="image" src="https://github.com/user-attachments/assets/5203b7be-f567-4f0d-b2f3-af105cb31113" />
+<br />
+<br />
+
+VNC
 
