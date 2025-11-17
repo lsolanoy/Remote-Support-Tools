@@ -144,3 +144,44 @@ RDP is a Microsoft proprietary protocol that allows remote control of a remote c
 
 VNC
 
+Virtual Network Computing is a protocol that is used for GUI remote control of a remote computer and it is different from RDP because it just uses a password to connect. It uses a server and client connection, the server would be installed on remote computer we want to connect to and use remote connection client to connect to remote server. User at remote device would able to see all of the actions you make from your end on thier screen as well like mouse movements and opening apps.
+
+1. First, we will set up VNC server on Windows machine. Log in to your windows machine > Open an internet browser > Type "tightvnc" which is a popular open spurce VNC software. > Download on to your device.
+ <br/>
+<img width="933" height="698" alt="image" src="https://github.com/user-attachments/assets/88a3d863-c6ec-4cec-9329-7b3d634c68f7" />
+<br />
+<br />
+
+2. Once downloaded, open the file so we can go through the setup. Accept License Terms, Click Next > Click "Typical Setup" > Click Install.
+ <br/>
+<img width="498" height="390" alt="image" src="https://github.com/user-attachments/assets/418b5ab1-1827-45dd-bb33-a75ee07f257d" />
+<br />
+<br />
+
+4. Now we need to set-up password for login. Type in a password.
+ <br/>
+<img width="443" height="398" alt="image" src="https://github.com/user-attachments/assets/506e2d4a-286f-4611-be43-4fb644a75d22" />
+<br />
+<br />
+
+5. We have VNC configured on our Windows machine, so now will head over to our Ubuntu machine. We will be using Remnina again for our remote connnection cleint. Open remnina app.
+ <br/>
+<img width="1301" height="735" alt="image" src="https://github.com/user-attachments/assets/3c6f5ed1-1132-431e-a4ff-820f425c4a32" />
+<br />
+<br />
+
+6. In the box at the top of the page, change the protocol to VNC and type in the IP address of your Windows machine. You will be prompted to type in the password you previously created. Type it in and you will see you are connected to the Windows machine.
+ <br/>
+<img width="1303" height="739" alt="image" src="https://github.com/user-attachments/assets/7446f333-f608-497b-9ba2-cd48cd4d7669" />
+<br />
+<br />
+
+7. To show that all the actions you make on your remote machine will show up on the client's machine, put the two machine side by side on your screen and open a notepad. From your Ubunutu machine type in your notepad and see the same actions being made on the Windows machine.
+ <br/>
+<img width="1902" height="950" alt="image" src="https://github.com/user-attachments/assets/88713b99-8238-41a3-8e4c-c5e2cba3bbe6" />
+<br />
+<br />
+
+Third-Party Remote Support Tools
+
+Team Viewer
