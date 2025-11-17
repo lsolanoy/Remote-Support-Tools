@@ -184,4 +184,5 @@ Virtual Network Computing is a protocol that is used for GUI remote control of a
 
 Third-Party Remote Support Tools
 
+When using VNC, RDP and SSH we need to be able to route traffic from cleint to server and back in order for the protocols to work. In a lot of scenario's it is not possible for users to be on the same LAN when using remote support tools. One way to allow remote support over the internet without using a VPN is to use a third-party application like Team Viewer and AnyDesk
 Team Viewer
