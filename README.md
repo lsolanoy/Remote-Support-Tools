@@ -220,7 +220,6 @@ TeamViewer
 6. Once fully loaded, you will be able to have remote access of the Windows machine from the Ubunutu machine with just a web browser.
  <br/>
 <img width="1213" height="768" alt="image" src="https://github.com/user-attachments/assets/7303d00f-a4de-4f0e-a106-cdd8e9dc3f10" />
-<img width="634" height="368" alt="image" src="https://github.com/user-attachments/assets/087bf9eb-8291-4edd-bc1c-77baee5784d1" />
 <br />
 <br />
 
