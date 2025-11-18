@@ -184,5 +184,43 @@ Virtual Network Computing is a protocol that is used for GUI remote control of a
 
 Third-Party Remote Support Tools
 
-When using VNC, RDP and SSH we need to be able to route traffic from cleint to server and back in order for the protocols to work. In a lot of scenario's it is not possible for users to be on the same LAN when using remote support tools. One way to allow remote support over the internet without using a VPN is to use a third-party application like Team Viewer and AnyDesk
-Team Viewer
+When using VNC, RDP and SSH we need to be able to route traffic from cleint to server and back in order for the protocols to work. In a lot of scenarios, it is not possible for users to be on the same LAN when using remote support tools. One way to allow remote support over the internet without using a VPN is to use a third-party application like TeamViewer. 
+
+TeamViewer
+1. To begin the setup, we will log on to our Windows machine > Open a web browser > type "TeamViewer" and click first link. We will be downloading QuickSupport on the Windows machine because it is where we want to recieve support.
+ <br/>
+<img width="1025" height="769" alt="image" src="https://github.com/user-attachments/assets/d2243261-2e2e-4d03-b407-5ca5ced701a6" />
+<br />
+<br />
+
+2. Once downloaded, open TeamViewer and you will see an ID and password you can provide to other devices to allow remote access. Keep this information private.
+ <br/>
+<img width="439" height="602" alt="image" src="https://github.com/user-attachments/assets/0638f7ed-87e2-4192-8cab-9069b66a4ba9" />
+<br />
+<br />
+
+3. To see what it would look like from a technician's persepctive, we will log in to the Ubuntu machine > Open a web browser > type "TeamViewer Management Console" > Create an account > Log in.
+ <br/>
+<img width="1214" height="691" alt="image" src="https://github.com/user-attachments/assets/77d992ee-5935-4333-9703-4a7f909cbf88" />
+<br />
+<br />
+
+4. Once logged in, you can see an option called "Web Client" where you can connect and control a remote device. Enter the ID from the Windows machine and click Connect.
+ <br/>
+<img width="1278" height="802" alt="image" src="https://github.com/user-attachments/assets/39fac2e6-3a9f-4202-97e0-5c95553b9268" />
+<br />
+<br />
+
+5. Before you fully connect, you will be prompted with entering a password. Type in the password shown previously.
+ <br/>
+<img width="634" height="368" alt="image" src="https://github.com/user-attachments/assets/087bf9eb-8291-4edd-bc1c-77baee5784d1" />
+<br />
+<br />
+
+6. Once fully loaded, you will be able to have remote access of the Windows machine from the Ubunutu machine with just a web browser.
+ <br/>
+<img width="1213" height="768" alt="image" src="https://github.com/user-attachments/assets/7303d00f-a4de-4f0e-a106-cdd8e9dc3f10" />
+<img width="634" height="368" alt="image" src="https://github.com/user-attachments/assets/087bf9eb-8291-4edd-bc1c-77baee5784d1" />
+<br />
+<br />
+
